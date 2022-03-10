@@ -1,13 +1,6 @@
 <header>
-    <h1>
-    <%= image_tag "Insider Harry Styles 61f431c6415c3f0018d36c74.webp", height: 100 %>
-    <a href="/">Styles Conference     <%# https://guides.rubyonrails.org/form_helpers.html %>
-    <%= form_with url: "/search", method: :get do |form| %>
-    <%= form.label :query, "Search:" %>
-    <%= form.text_field :query %>
-    <%= form.submit "Search" %>
-  <% end %></a>
-
+  <h1>
+    <a href="/">Styles Conference</a>
   </h1>
   <h3>August 24&ndash;26th &mdash; Chicago, IL</h3>
   <nav>
@@ -32,21 +25,6 @@
     </a>
     <p>Joining us from all around the world are over twenty fantastic speakers, here to share their stories.</p>
   </section>
-  <section>
-    <a href="schedule.html">
-      <h5>Schedule</h5>
-      <h3>Three Inspiring Days</h3>
-    </a>
-    <p>Enjoy three inspiring and action-packed days of talks, gatherings, and all-around good times.</p>
-  </section>
-  <section>
-    <a href="venue.html">
-      <h5>Venue</h5>
-      <h3>The Chicago Theatre</h3>
-    </a>
-    <p>Within the heart of downtown Chicago, The Chicago Theatre will provide a beautiful confefence venue.</p>
-  </section>
-</section>
 <footer>
   <small>&copy; Styles Conference</small>
   <nav>
